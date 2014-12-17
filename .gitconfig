@@ -157,3 +157,6 @@
 [url "git://gist.github.com/"]
 
 	insteadOf = "gist:"
+[user]
+	email = vikash@purplecoral.com
+	name = Vikash Chauhan
