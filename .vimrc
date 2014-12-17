@@ -5,7 +5,7 @@ set nocompatible
 set t_Co=256
 set background=dark
 syntax on
-colorscheme badwolf
+
 
 " Enabled later, after Pathogen
 filetype off
@@ -219,11 +219,11 @@ autocmd BufReadPost *
   \ endif
 
 " Set relative line numbers
-set relativenumber " Use relative line numbers. Current line is still in status bar.
-au BufReadPost,BufNewFile * set relativenumber
+"set relativenumber " Use relative line numbers. Current line is still in status bar.
+"au BufReadPost,BufNewFile * set relativenumber
 
 " Emulate bundles, allow plugins to live independantly. Easier to manage.
-call pathogen#runtime_append_all_bundles()
+call pathogen#infect()
 filetype plugin indent on
 
 " JSON
