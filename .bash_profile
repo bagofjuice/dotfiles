@@ -50,3 +50,5 @@ complete -W "NSGlobalDomain" defaults;
 complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes SystemUIServer Terminal Twitter" killall;
 
 export BASH_SILENCE_DEPRECATION_WARNING=1
+export NVM_DIR=~/.nvm
+source $(brew --prefix nvm)/nvm.sh
