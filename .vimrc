@@ -4,8 +4,9 @@ set nocompatible
 " Set syntax highlighting options.
 set t_Co=256
 set background=dark
-colorscheme solarized
-let g:solarized_termtrans=1
+colorscheme badwolf
+" colorscheme solarized
+" let g:solarized_termtrans=1
 
 " Change mapleader
 let mapleader=","
